@@ -14,7 +14,6 @@ body {
     overflow: hidden;
 }
 
-/* Estilos del menu lateral */
 .sidebar {
     position: fixed;
     top: 0;
@@ -45,20 +44,20 @@ body {
     background-color: var(--secondary-color);
 }
 
-.sidebar a .icon {
-    margin-right: 10px;
+/* Animación del menu lateral */
+.sidebar a {
+    opacity: 0;
+    transform: translateX(-50px);
+    animation: slide-in 0.5s forwards;
 }
 
-.menu-toggle {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    font-size: 30px;
-    color: white;
-    cursor: pointer;
+@keyframes slide-in {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 
-/* Estilos principales de la web */
 .main-content {
     margin-left: 250px;
     padding: 20px;
@@ -85,30 +84,4 @@ body {
 
 .card p {
     color: #bbb;
-}
-
-/* Animación de abrir/cerrar menú */
-.sidebar a {
-    opacity: 0;
-    transform: translateX(-50px);
-    animation: slide-in 0.5s forwards;
-}
-
-.sidebar a:nth-child(1) {
-    animation-delay: 0.2s;
-}
-
-.sidebar a:nth-child(2) {
-    animation-delay: 0.4s;
-}
-
-.sidebar a:nth-child(3) {
-    animation-delay: 0.6s;
-}
-
-@keyframes slide-in {
-    to {
-        opacity: 1;
-        transform: translateX(0);
-    }
 }
