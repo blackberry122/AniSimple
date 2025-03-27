@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AniSimple</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css"> <!-- Vinculamos el archivo CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="manifest" href="manifest.json"> <!-- Vinculamos el archivo Manifest -->
+</head>
+
+<body>
+
+    <!-- Menu Lateral -->
+    <div class="sidebar" id="sidebar">
+        <a href="#" class="menu-toggle" onclick="toggleSidebar()">
+            <i class="fas fa-bars"></i>
+        </a>
+        <a href="#"><i class="fas fa-user icon"></i>Perfil</a>
+        <a href="#"><i class="fas fa-cogs icon"></i>Ajustes</a>
+        <a href="#"><i class="fas fa-search icon"></i>Buscar Anime</a>
+        <a href="#"><i class="fas fa-sign-out-alt icon"></i>Cerrar sesión</a>
+    </div>
+
+    <!-- Contenido Principal -->
+    <div class="main-content">
+        <div class="header">
+            Bienvenido a tu WebApp AniSimple
+        </div>
+
+        <!-- Enlace de Login con AniList -->
+        <div class="card">
+            <h2>Iniciar sesión con AniList</h2>
+            <p>Haz clic en el siguiente enlace para iniciar sesión en tu cuenta de AniList.</p>
+            <!-- Enlace de login con AniList -->
+            <a href="https://anilist.co/api/v2/oauth/authorize?client_id=TU_CLIENT_ID&redirect_uri=https://miproyecto.netlify.app/callback&response_type=code"
+               style="background-color: var(--primary-color); color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-size: 18px;">
+               Login con AniList
+            </a>
+        </div>
+
+        <div class="card">
+            <h2>Anime Popular</h2>
+            <p>Consulta los animes más populares y agrega a tu lista.</p>
+        </div>
+        <div class="card">
+            <h2>Mis Animes</h2>
+            <p>Accede a tu lista de animes y organiza tus vistas.</p>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script> <!-- Vinculamos el archivo JavaScript -->
+    <script>
+        // Función para alternar el menú lateral
+        function toggleSidebar() {
+            const sidebar = document.getElementById('sidebar');
+            sidebar.classList.toggle('active');
+        }
+    </script>
+</body>
+
+</html>
