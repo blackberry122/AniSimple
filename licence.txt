@@ -1,0 +1,20 @@
+Licencia de Uso y Contribución
+
+Copyright (c) [2025] [AniSimple]
+
+Se concede permiso, de manera gratuita, a cualquier persona para usar, modificar, distribuir y/o sublicenciar el código fuente de este proyecto, bajo las siguientes condiciones:
+
+1. **Notificación de Modificaciones**: Si realizas modificaciones al código fuente de este proyecto y decides distribuirlo, te pedimos que nos notifiques las modificaciones realizadas y las compartas con nosotros para mejorar el proyecto en común.
+
+2. **Contribuciones Abiertas**: Este proyecto está abierto a contribuciones. Si deseas mejorar el proyecto, estaré encantado de recibir tus contribuciones. Puedes enviar un "pull request" o notificarme de las mejoras de manera respetuosa y colaborativa.
+
+3. **Uso Comercial**: Las modificaciones y derivados de este proyecto pueden ser utilizados con fines comerciales, siempre y cuando se respeten las condiciones de notificación descritas anteriormente.
+
+4. **No hay Garantías**: El código se proporciona **tal cual**, sin ninguna garantía de ningún tipo, expresa o implícita, incluyendo pero no limitado a garantías de comerciabilidad o adecuación para un propósito particular.
+
+5. **Reconocimiento**: Si utilizas, modificas o distribuyes este proyecto o cualquiera de sus derivados, se debe dar crédito adecuado, proporcionar un enlace a la licencia e indicar si se realizaron cambios. Esto puede hacerse de cualquier forma razonable, pero **no de manera que sugiera que el titular de los derechos otorga apoyo o respaldo a tus modificaciones**.
+
+---
+
+**Aceptación**: Al usar, modificar o distribuir este proyecto, aceptas cumplir con las condiciones establecidas en esta licencia.
+
